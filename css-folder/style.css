@@ -1,0 +1,30 @@
+img.macbook{
+    margin-left: 300px;
+}
+
+.btn-radius{
+    border-radius: 3px;
+}
+
+
+
+.delivery-charge{
+    border-bottom: 2px solid black;
+    width: 262px;
+    
+}
+
+.border-bottom{
+    width: 262px;
+    margin-bottom: 10px;
+}
+.input-fild{
+    padding: 4px;
+    margin-left: 10px;
+    border-radius: 5px;
+   
+}
+.border-top {
+    width: 800px;
+    text-align: center;
+}

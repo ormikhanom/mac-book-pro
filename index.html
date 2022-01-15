@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="css-folder/style.css">
+</head>
+
+<body>
+    <section class="container">
+        <div class="row">
+            <!-- Macbook images -->
+            <div class="col">
+                <img src="images/mac.png" class="macbook" height="300px" width="280px" alt="">
+            </div>
+
+            <div class="col">
+                <h1>Customaize your Blue 24-inct iMac with Apple M1 chip.</h1>
+
+                <small>Apple M1 chip with 8-core CPU with 4 performance cores and 4 effciency cores ,
+                    7-core GPU, and
+                    16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt / USB 4 ports Magic
+                    Mouse
+                    Magic Keyboard - US English
+                </small>
+
+                <!-- button Section start -->
+                <section>
+                    <h6 style="margin-top: 35px;">Memory</h6>
+                    <button id="8gb-memory" class="btn-radius">8GB unified memory</button>
+                    <button id="16gb-memory" class="btn-radius">16GB unified memory</button>
+                    <h6 style="margin-top: 35px;">Storage</h6>
+                    <button id="256gb-storage" class="btn-radius">256 GB SSD storage</button>
+                    <button id="512gb-storage" class="btn-radius">512 GB SSD storage</button>
+                    <button id="1tb-storage" class="btn-radius">1TB SSD storage</button>
+                    <h6 style="margin-top: 35px;">Choose your delivery option</h6>
+                    <button id="free-delivery" class="btn-radius">Friday, Aug 25 FREE Prime Delivery</button>
+                    <button id="delivery-with-charge" class="btn-radius">Friday, Aug 21 Delivery charge $20</button>
+                </section>
+
+                <!-- Price Section -->
+                <section>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h6 style="margin-top: 35px;" class="border-bottom">Best Price </h6>
+                            <h6 class="border-bottom">Extra Memory Cost</h6>
+                            <h6 class="border-bottom">Extra Storage Cost</h6>
+                            <h6 class="delivery-charge">Delivery charge</h6>
+                            <h6 class="border-bottom">Total Price</h6>
+                        </div>
+
+                        <div class="col-md-8 status">
+                            <h6 style="margin-top: 35px;">$<span id="best-price">1299</span></h6>
+                            <h6>$<span id="memory-cost">0</span></h6>
+                            <h6>$ <span id="storage-cost">0</span></h6>
+                            <h6>$<span id="delivery-charge">0</span></h6>
+                            <h6>$<span id="total-price">1299</span></h6>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Extra part Start -->
+                <h6>Add Pomo code</h6>
+                <input id="input-flid" class="input-fild" type="text">
+                <button id="apply-button" class="btn btn-danger">Apply</button>
+            </div>
+        </div>
+        <p class=" h3 border-top mx-auto mt-3 mb-3">Total: $<span id="total-amount">1299</span></p>
+    </section>
+
+    <!-- Script link  -->
+    <script src="js-file/script.js"></script>
+</body>
+
+</html>
